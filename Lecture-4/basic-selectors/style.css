@@ -1,0 +1,60 @@
+/* 1. element selector */
+/* h1{
+    color: red;
+}
+h2{
+    color: red;
+}
+div{
+    color: red;
+} */
+
+/* --- */
+
+/* h1 , h2{
+    color: red;
+} */
+
+/* ------------------------------- */
+/* 2. Id selector */
+/* #sam{
+    color: green;
+} */
+
+
+/* ------------------------------- */
+/* 3. Class selector */
+/* .vohra{
+    color: red;
+} */
+
+/* ------------------------------- */
+/* 4. attribute selector */
+
+/* input[type="text"]{
+    background-color: red;
+}
+input[type="password"]{
+    background-color: yellow;
+}
+
+a[href="http://facebook.com"]{
+    color: blue;
+    font-size: 70px;
+}
+a[href="http://instagram.com"]{
+    color: brown;
+    font-size: 70px;
+} */
+
+
+
+/* ------------------------------- */
+/* 5. universal selector */
+/* *{
+    border: 5px dashed red;
+    border: 5px dotted purple;
+    border: 5px solid green;
+} */
+
+

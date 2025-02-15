@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div{
+
+    /*default*/
+    /* box-sizing: content-box;  */
+    /* box-sizing: border-box;  */
+/* --------------------------------------- */
+    background-color: blanchedalmond;
+    /* content */
+    height: 100px;
+    width: 100px; /* element area => 100 x 100, content-area => 100x100 */
+
+    /* padding => top right bottom left */
+    /* padding: 10px 10px 10px 10px;  t r b l    */
+    /* padding: 10px 10px             t&b l&r    */
+    /* padding: 10px 10px 10px        t l&r b    */  
+
+    padding: 10px; /* element area => 120 x 120, content-area => 100x100   */
+
+    /* border */
+    /* border-top: ; , border-right: ; , border-bottom: ; , border-left: ; */
+    border: 5px solid black;
+
+    /* margin */
+    margin: 30px;
+}
