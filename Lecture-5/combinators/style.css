@@ -1,0 +1,23 @@
+/* article>div>span{
+    color: red;
+} */
+
+/* article div>span{
+    color: red;
+} */
+
+/* ------------------------------ */
+
+/* .sam{}
+div h1{}
+div>h1{} */
+
+/* div h1 + p{
+    color: red;
+}
+
+div h1 ~ p{
+    color: green;
+} */
+
+/* ------------------------------ */

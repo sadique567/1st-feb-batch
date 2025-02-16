@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+div,span{
+    background-color: chocolate;
+
+    /* box-sizing: border-box; */
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 10px solid blueviolet;
+    margin: 20px;
+}
+
+/* ------------------------------------------- */
+div{
+    /* visibility: hidden; */
+    display: none;
+}
+span{
+    display: block; /* not a great solution */
+    display: inline-block; /* better appraoch */
+}
+
+
+
+
+
+
+
