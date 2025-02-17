@@ -1,0 +1,30 @@
+div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+/* ------------ fixed ------------ */
+/* #fixed{
+    position: relative;
+}
+
+#fixed #middle{
+    position: fixed;
+    top: 0px;
+} */
+
+
+/* ------------ sticky ------------ */
+
+#sticky{
+    border: 1px solid red;
+    height: 1000px;
+}
+
+#sticky #middle{
+    position: sticky;
+    top: 0px;
+}
