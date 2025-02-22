@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 5fr 5fr 1fr;
+    background-color: black;
+    grid-template-areas: "header header header" 
+                         "nav1 main nav3"
+                         "nav2 main nav3"
+                         "footer footer footer";
+}
+
+.header{
+    background-color: red;
+    grid-area: header;
+}
+.nav1{
+    background-color: green;
+    grid-area: nav1;
+}
+.nav2{
+    background-color: blue;
+    grid-area: nav2;
+}
+.main{
+    background-color: purple;
+    grid-area: main;
+}
+.nav3{
+    background-color: saddlebrown;
+    grid-area: nav3;
+}
+.footer{
+    background-color: pink;
+    grid-area: footer;
+}
+
+/* ----------------------------------------- */
+/* .header{
+    background-color: red;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.nav1{
+    background-color: green;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.nav2{
+    background-color: blue;
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.main{
+    background-color: purple;
+    grid-row: 2/4;
+    grid-column: 2/3;
+}
+.nav3{
+    background-color: saddlebrown;
+    grid-row: 2/4;
+    grid-column: 3/4;
+}
+.footer{
+    background-color: pink;
+    grid-row: 4/5;
+    grid-column: 1/4;
+} */
+
+
+
+
+
+
+
+
+
+
+
+

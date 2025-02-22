@@ -1,0 +1,49 @@
+.container{
+    margin: 0 auto;
+    width: 90vw;
+    border: 5px solid red;
+
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: cyan;
+
+    animation-play-state: running;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: 5;
+    
+    background: linear-gradient();
+    
+}
+
+section:hover div{
+    
+    animation-play-state: paused;
+}
+
+@keyframes loader {
+    0%{
+        width: 100px;
+    }
+    100%{
+        width: 95%;
+    }
+}
+.div1{
+    animation-timing-function: linear;
+}
+.div2{
+    animation-timing-function: ease-in;
+}
+.div3{
+    animation-timing-function: ease-out;
+}
+.div4{
+    animation-timing-function: ease-in-out;
+}
