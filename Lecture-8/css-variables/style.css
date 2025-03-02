@@ -1,0 +1,22 @@
+
+
+:root{
+    --red-color: red;
+    --font-size: 10px;
+}
+
+
+h1{
+    font-size: calc(var(--font-size)*10);
+    color: var(--red-color);
+}
+
+p{
+    font-size: calc(var(--font-size)*3);
+    font-family: cursive;
+    background-color: var(--red-color);
+}
+h4{
+    font-size: calc(var(--font-size)*5);
+    border: 2px solid var(--red-color);
+}

@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ------- absolute unit -------- */
+/* h1{
+    font-size: 100px;
+} */
+
+/* ------- relative unit -------- */
+/* % */
+
+
+/* section{
+    width: 700px;
+    background-color: red;
+}
+div{
+    width: 50%;
+    background-color: orange;
+} */
+
+
+/* em */
+/* ul>li{
+    font-size: 2em;
+} */
+
+
+/* rem = html */
+/* ul>li{
+    font-size: 2rem;
+} */
+
+/* vh and vw */
+
+section{
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+}
