@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    text-decoration: none;
+}
+:root{
+    --min-color:#fff;
+
+}
+body{
+    background-color: #000;
+}
+.btn{
+    font-size: 1.8rem;
+    background: var(--sc-color);
+
+}
+.header{
+    text-align: center;
+    font-size: 3.2rem;
+    color: var(--sc-color);
+    margin: 4rem 0;
+}
+header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    display: flex;
+    z-index: 99999;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+}
+header.logo{
+    font-size: 3.2rem;
+    color: var(--min-color);
+    padding: 0.4rem;
+}
+header .logo span{
+    color: var(--sc-color);
+    font-size: 4rem;
+}
